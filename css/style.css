@@ -1,0 +1,144 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Marcellus SC", serif;
+  letter-spacing: 2px;
+}
+
+main {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+aside {
+  background-color: #fff;
+  min-width: 25rem;
+  height: 100vh;
+  flex: 1;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shadow {
+  -webkit-box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  background-color: #fff;
+  height: 100vh;
+  flex: 4;
+  overflow: auto;
+}
+
+article {
+  max-width: 90%;
+  margin: 3rem;
+}
+
+article > p {
+  line-height: 1.8rem;
+}
+
+nav {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #aaa;
+}
+
+nav > ul {
+  list-style-type: none;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+nav > ul li {
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+footer {
+  flex: 1;
+}
+
+footer a {
+  margin: 0 2rem;
+  text-decoration-style: none;
+  color: #000;
+}
+
+time {
+  font-style: italic;
+  color: #aaa;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+header {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.title p {
+  margin: 0;
+  font-style: italic;
+}
+
+.title h1 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.copyright {
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+
+/* BREAKPOINTS */
+@media screen and (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  aside {
+    text-align: center;
+  }
+  
+  section {
+    overflow: visible;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  aside {
+    min-width: 18rem;
+  }
+}
