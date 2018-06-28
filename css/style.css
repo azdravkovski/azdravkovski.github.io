@@ -71,8 +71,11 @@ a:hover {
   color: #aaa;
 }
 
-nav > ul {
+ul {
   list-style-type: none;
+}
+
+nav > ul {
   font-size: 1.5rem;
   padding: 0;
 }
@@ -110,7 +113,7 @@ blockquote {
   font-style: italic;
 }
 
-.intro {
+.intro, .projects {
   display: flex;
   align-items: center;
   justify-content: center;
