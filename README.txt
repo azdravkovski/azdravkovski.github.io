@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/azdravkovski/pen/wmrXxz.
-
- 
+My personal portfolio page. It's going to blow you away... when it's done.
